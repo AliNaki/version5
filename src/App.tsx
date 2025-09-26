@@ -1,6 +1,4 @@
-Here is a complete, ready-to-use src/App.tsx that preserves the entire legacy UI in a single file under LegacyHome, adds a Supabase-powered realtime PostsFeed, and exposes exactly one default export (App) to fix Vercel build errors. Replace src/App.tsx with this content and redeploy.[1][2]
 
-```tsx
 import React, { useEffect, useMemo, useState } from 'react'
 import { supabase } from './lib/supabase'
 import {
@@ -1128,5 +1126,4 @@ Remember, filing false FIR is a punishable offense. Ensure all information is ac
                         </div>
                       </div>
 
-[1](https://ppl-ai-file-upload.s3.amazonaws.com/web/direct-files/attachments/116154791/326d0e7c-a5b2-4c6d-8031-6abc21fa0e6e/App.tsx)
-[2](https://ppl-ai-file-upload.s3.amazonaws.com/web/direct-files/attachments/116154791/6ccb6b59-84f4-40ba-89be-1ef0dbb536b2/paste.txt)
+
